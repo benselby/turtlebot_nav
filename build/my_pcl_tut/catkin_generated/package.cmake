@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "my_pcl_tut")
+set(my_pcl_tut_MAINTAINER "turtlebot <turtlebot@todo.todo>")
+set(my_pcl_tut_DEPRECATED "")
+set(my_pcl_tut_VERSION "0.0.0")
+set(my_pcl_tut_BUILD_DEPENDS "pcl_conversions" "pcl_ros" "roscpp" "sensor_msgs" "libpcl-all-dev")
+set(my_pcl_tut_RUN_DEPENDS "pcl_conversions" "pcl_ros" "roscpp" "sensor_msgs" "libpcl-all")
+set(my_pcl_tut_BUILDTOOL_DEPENDS "catkin")
