@@ -1,0 +1,8 @@
+prefix=/home/orodrigu/test_pcl_LOL/install
+
+Name: lolz
+Description: Description of lolz
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/orodrigu/test_pcl_LOL/install/lib 
+Requires: 

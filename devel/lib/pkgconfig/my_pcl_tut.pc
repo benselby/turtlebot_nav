@@ -1,8 +1,0 @@
-prefix=/home/turtlebot/oswin_stuff/pcl_tut/devel
-
-Name: my_pcl_tut
-Description: Description of my_pcl_tut
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/turtlebot/oswin_stuff/pcl_tut/devel/lib 
-Requires: 

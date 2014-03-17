@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/cout_try.dir/src/cout_try.cpp.o  -o /home/turtlebot/oswin_stuff/pcl_tut/devel/lib/my_pcl_tut/cout_try -rdynamic 

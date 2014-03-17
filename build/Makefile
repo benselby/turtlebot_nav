@@ -35,19 +35,25 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# Escaping for special characters.
+EQUALS = =
+
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtlebot/oswin_stuff/pcl_tut/src
+CMAKE_SOURCE_DIR = /home/orodrigu/test_pcl_LOL/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtlebot/oswin_stuff/pcl_tut/build
+CMAKE_BINARY_DIR = /home/orodrigu/test_pcl_LOL/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
-	/usr/bin/cmake -i .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -117,9 +123,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/oswin_stuff/pcl_tut/build/CMakeFiles /home/turtlebot/oswin_stuff/pcl_tut/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orodrigu/test_pcl_LOL/build/CMakeFiles /home/orodrigu/test_pcl_LOL/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/oswin_stuff/pcl_tut/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orodrigu/test_pcl_LOL/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -234,7 +240,7 @@ actionlib_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make lolz/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 #=============================================================================
@@ -247,7 +253,7 @@ actionlib_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make lolz/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 #=============================================================================
@@ -260,7 +266,7 @@ actionlib_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/actionlib_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/actionlib_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/actionlib_generate_messages_py.dir/build.make lolz/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 #=============================================================================
@@ -273,7 +279,7 @@ actionlib_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make lolz/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -286,7 +292,7 @@ actionlib_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make lolz/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -299,7 +305,7 @@ actionlib_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make lolz/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -312,7 +318,7 @@ bond_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/bond_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/bond_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/bond_generate_messages_cpp.dir/build.make lolz/CMakeFiles/bond_generate_messages_cpp.dir/build
 .PHONY : bond_generate_messages_cpp/fast
 
 #=============================================================================
@@ -325,7 +331,7 @@ bond_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/bond_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/bond_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/bond_generate_messages_lisp.dir/build.make lolz/CMakeFiles/bond_generate_messages_lisp.dir/build
 .PHONY : bond_generate_messages_lisp/fast
 
 #=============================================================================
@@ -338,21 +344,8 @@ bond_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/bond_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/bond_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/bond_generate_messages_py.dir/build.make lolz/CMakeFiles/bond_generate_messages_py.dir/build
 .PHONY : bond_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named dummy
-
-# Build rule for target.
-dummy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dummy
-.PHONY : dummy
-
-# fast build rule for target.
-dummy/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/dummy.dir/build.make my_pcl_tut/CMakeFiles/dummy.dir/build
-.PHONY : dummy/fast
 
 #=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_cpp
@@ -364,7 +357,7 @@ dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make lolz/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 #=============================================================================
@@ -377,7 +370,7 @@ dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make lolz/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 #=============================================================================
@@ -390,7 +383,7 @@ dynamic_reconfigure_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make lolz/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 #=============================================================================
@@ -403,7 +396,7 @@ geometry_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make lolz/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -416,7 +409,7 @@ geometry_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make lolz/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -429,7 +422,7 @@ geometry_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make lolz/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -442,7 +435,7 @@ new_main_ground_based_people_detection: cmake_check_build_system
 
 # fast build rule for target.
 new_main_ground_based_people_detection/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/new_main_ground_based_people_detection.dir/build.make my_pcl_tut/CMakeFiles/new_main_ground_based_people_detection.dir/build
+	$(MAKE) -f lolz/CMakeFiles/new_main_ground_based_people_detection.dir/build.make lolz/CMakeFiles/new_main_ground_based_people_detection.dir/build
 .PHONY : new_main_ground_based_people_detection/fast
 
 #=============================================================================
@@ -455,7 +448,7 @@ nodelet_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make lolz/CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
 
 #=============================================================================
@@ -468,7 +461,7 @@ nodelet_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make lolz/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 .PHONY : nodelet_generate_messages_lisp/fast
 
 #=============================================================================
@@ -481,7 +474,7 @@ nodelet_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/nodelet_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/nodelet_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/nodelet_generate_messages_py.dir/build.make lolz/CMakeFiles/nodelet_generate_messages_py.dir/build
 .PHONY : nodelet_generate_messages_py/fast
 
 #=============================================================================
@@ -494,7 +487,7 @@ pcl_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 pcl_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make lolz/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build
 .PHONY : pcl_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -507,7 +500,7 @@ pcl_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 pcl_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make lolz/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
 .PHONY : pcl_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -520,7 +513,7 @@ pcl_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 pcl_msgs_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make lolz/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
 .PHONY : pcl_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -533,7 +526,7 @@ pcl_ros_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 pcl_ros_gencfg/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/pcl_ros_gencfg.dir/build.make my_pcl_tut/CMakeFiles/pcl_ros_gencfg.dir/build
+	$(MAKE) -f lolz/CMakeFiles/pcl_ros_gencfg.dir/build.make lolz/CMakeFiles/pcl_ros_gencfg.dir/build
 .PHONY : pcl_ros_gencfg/fast
 
 #=============================================================================
@@ -546,7 +539,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make lolz/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -559,7 +552,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make lolz/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -572,7 +565,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/roscpp_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/roscpp_generate_messages_py.dir/build.make lolz/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -585,7 +578,7 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make lolz/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -598,7 +591,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make lolz/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -611,7 +604,7 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make lolz/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -624,7 +617,7 @@ sensor_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make lolz/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -637,7 +630,7 @@ sensor_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make lolz/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -650,7 +643,7 @@ sensor_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make lolz/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -663,7 +656,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make lolz/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -676,7 +669,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make lolz/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -689,21 +682,8 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/std_msgs_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/std_msgs_generate_messages_py.dir/build.make lolz/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named test_vis
-
-# Build rule for target.
-test_vis: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_vis
-.PHONY : test_vis
-
-# fast build rule for target.
-test_vis/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/test_vis.dir/build.make my_pcl_tut/CMakeFiles/test_vis.dir/build
-.PHONY : test_vis/fast
 
 #=============================================================================
 # Target rules for targets named tf2_msgs_generate_messages_cpp
@@ -715,7 +695,7 @@ tf2_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make lolz/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -728,7 +708,7 @@ tf2_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make lolz/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -741,7 +721,7 @@ tf2_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make lolz/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -754,7 +734,7 @@ tf_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/tf_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/tf_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/tf_generate_messages_cpp.dir/build.make lolz/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 #=============================================================================
@@ -767,7 +747,7 @@ tf_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/tf_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/tf_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/tf_generate_messages_lisp.dir/build.make lolz/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 #=============================================================================
@@ -780,7 +760,7 @@ tf_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/tf_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/tf_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/tf_generate_messages_py.dir/build.make lolz/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 #=============================================================================
@@ -793,7 +773,7 @@ topic_tools_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 topic_tools_generate_messages_cpp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make my_pcl_tut/CMakeFiles/topic_tools_generate_messages_cpp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make lolz/CMakeFiles/topic_tools_generate_messages_cpp.dir/build
 .PHONY : topic_tools_generate_messages_cpp/fast
 
 #=============================================================================
@@ -806,7 +786,7 @@ topic_tools_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 topic_tools_generate_messages_lisp/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make my_pcl_tut/CMakeFiles/topic_tools_generate_messages_lisp.dir/build
+	$(MAKE) -f lolz/CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make lolz/CMakeFiles/topic_tools_generate_messages_lisp.dir/build
 .PHONY : topic_tools_generate_messages_lisp/fast
 
 #=============================================================================
@@ -819,7 +799,7 @@ topic_tools_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 topic_tools_generate_messages_py/fast:
-	$(MAKE) -f my_pcl_tut/CMakeFiles/topic_tools_generate_messages_py.dir/build.make my_pcl_tut/CMakeFiles/topic_tools_generate_messages_py.dir/build
+	$(MAKE) -f lolz/CMakeFiles/topic_tools_generate_messages_py.dir/build.make lolz/CMakeFiles/topic_tools_generate_messages_py.dir/build
 .PHONY : topic_tools_generate_messages_py/fast
 
 # Help Target
@@ -850,7 +830,6 @@ help:
 	@echo "... bond_generate_messages_cpp"
 	@echo "... bond_generate_messages_lisp"
 	@echo "... bond_generate_messages_py"
-	@echo "... dummy"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_py"
@@ -877,7 +856,6 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... test_vis"
 	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_py"

@@ -31,11 +31,17 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# Escaping for special characters.
+EQUALS = =
+
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtlebot/oswin_stuff/pcl_tut/src
+CMAKE_SOURCE_DIR = /home/orodrigu/test_pcl_LOL/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtlebot/oswin_stuff/pcl_tut/build
+CMAKE_BINARY_DIR = /home/orodrigu/test_pcl_LOL/build
 
 # Utility rule file for clean_test_results.
 
@@ -43,7 +49,7 @@ CMAKE_BINARY_DIR = /home/turtlebot/oswin_stuff/pcl_tut/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/cmake -E remove_directory /home/turtlebot/oswin_stuff/pcl_tut/build/test_results
+	/usr/bin/cmake -E remove_directory /home/orodrigu/test_pcl_LOL/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -58,6 +64,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/turtlebot/oswin_stuff/pcl_tut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtlebot/oswin_stuff/pcl_tut/src /home/turtlebot/oswin_stuff/pcl_tut/src /home/turtlebot/oswin_stuff/pcl_tut/build /home/turtlebot/oswin_stuff/pcl_tut/build /home/turtlebot/oswin_stuff/pcl_tut/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orodrigu/test_pcl_LOL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orodrigu/test_pcl_LOL/src /home/orodrigu/test_pcl_LOL/src /home/orodrigu/test_pcl_LOL/build /home/orodrigu/test_pcl_LOL/build /home/orodrigu/test_pcl_LOL/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

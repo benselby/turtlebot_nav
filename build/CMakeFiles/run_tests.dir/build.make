@@ -31,11 +31,17 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# Escaping for special characters.
+EQUALS = =
+
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtlebot/oswin_stuff/pcl_tut/src
+CMAKE_SOURCE_DIR = /home/orodrigu/test_pcl_LOL/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtlebot/oswin_stuff/pcl_tut/build
+CMAKE_BINARY_DIR = /home/orodrigu/test_pcl_LOL/build
 
 # Utility rule file for run_tests.
 
@@ -57,6 +63,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/turtlebot/oswin_stuff/pcl_tut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtlebot/oswin_stuff/pcl_tut/src /home/turtlebot/oswin_stuff/pcl_tut/src /home/turtlebot/oswin_stuff/pcl_tut/build /home/turtlebot/oswin_stuff/pcl_tut/build /home/turtlebot/oswin_stuff/pcl_tut/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orodrigu/test_pcl_LOL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orodrigu/test_pcl_LOL/src /home/orodrigu/test_pcl_LOL/src /home/orodrigu/test_pcl_LOL/build /home/orodrigu/test_pcl_LOL/build /home/orodrigu/test_pcl_LOL/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 
