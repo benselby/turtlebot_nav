@@ -219,7 +219,7 @@ int main (int argc, char** argv)
       std::cout << "set input cloud" << std::endl;
       people_detector.setGround(ground_coeffs);   
       std::cout <<"setGround"<< std::endl;               // set floor coefficients
-      people_detector.compute(clusters);                           // perform people detection
+      people_detector.compute(clusters);                           // perform peopxle detection
       std::cout <<"computed clusters"<< std::endl;
       ground_coeffs = people_detector.getGround();                 // get updated floor coefficients
       std::cout << "get ground" << std::endl;

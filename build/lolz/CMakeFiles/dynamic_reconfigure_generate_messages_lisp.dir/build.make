@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orodrigu/test_pcl_LOL/src
+CMAKE_SOURCE_DIR = /home/orodrigu/turtlebot_nav/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orodrigu/test_pcl_LOL/build
+CMAKE_BINARY_DIR = /home/orodrigu/turtlebot_nav/build
 
 # Utility rule file for dynamic_reconfigure_generate_messages_lisp.
 
@@ -59,10 +59,10 @@ lolz/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build: dynamic_re
 .PHONY : lolz/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 
 lolz/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean:
-	cd /home/orodrigu/test_pcl_LOL/build/lolz && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/orodrigu/turtlebot_nav/build/lolz && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : lolz/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
 
 lolz/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend:
-	cd /home/orodrigu/test_pcl_LOL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orodrigu/test_pcl_LOL/src /home/orodrigu/test_pcl_LOL/src/lolz /home/orodrigu/test_pcl_LOL/build /home/orodrigu/test_pcl_LOL/build/lolz /home/orodrigu/test_pcl_LOL/build/lolz/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orodrigu/turtlebot_nav/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orodrigu/turtlebot_nav/src /home/orodrigu/turtlebot_nav/src/lolz /home/orodrigu/turtlebot_nav/build /home/orodrigu/turtlebot_nav/build/lolz /home/orodrigu/turtlebot_nav/build/lolz/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lolz/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
 

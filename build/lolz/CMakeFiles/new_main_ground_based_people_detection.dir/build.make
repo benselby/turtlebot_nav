@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orodrigu/test_pcl_LOL/src
+CMAKE_SOURCE_DIR = /home/orodrigu/turtlebot_nav/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orodrigu/test_pcl_LOL/build
+CMAKE_BINARY_DIR = /home/orodrigu/turtlebot_nav/build
 
 # Include any dependencies generated for this target.
 include lolz/CMakeFiles/new_main_ground_based_people_detection.dir/depend.make
@@ -53,18 +53,18 @@ include lolz/CMakeFiles/new_main_ground_based_people_detection.dir/progress.make
 include lolz/CMakeFiles/new_main_ground_based_people_detection.dir/flags.make
 
 lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o: lolz/CMakeFiles/new_main_ground_based_people_detection.dir/flags.make
-lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o: /home/orodrigu/test_pcl_LOL/src/lolz/src/new_main_ground_based_people_detection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/orodrigu/test_pcl_LOL/build/CMakeFiles $(CMAKE_PROGRESS_1)
+lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o: /home/orodrigu/turtlebot_nav/src/lolz/src/new_main_ground_based_people_detection.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/orodrigu/turtlebot_nav/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o"
-	cd /home/orodrigu/test_pcl_LOL/build/lolz && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o -c /home/orodrigu/test_pcl_LOL/src/lolz/src/new_main_ground_based_people_detection.cpp
+	cd /home/orodrigu/turtlebot_nav/build/lolz && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o -c /home/orodrigu/turtlebot_nav/src/lolz/src/new_main_ground_based_people_detection.cpp
 
 lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.i"
-	cd /home/orodrigu/test_pcl_LOL/build/lolz && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/orodrigu/test_pcl_LOL/src/lolz/src/new_main_ground_based_people_detection.cpp > CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.i
+	cd /home/orodrigu/turtlebot_nav/build/lolz && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/orodrigu/turtlebot_nav/src/lolz/src/new_main_ground_based_people_detection.cpp > CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.i
 
 lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.s"
-	cd /home/orodrigu/test_pcl_LOL/build/lolz && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/orodrigu/test_pcl_LOL/src/lolz/src/new_main_ground_based_people_detection.cpp -o CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.s
+	cd /home/orodrigu/turtlebot_nav/build/lolz && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/orodrigu/turtlebot_nav/src/lolz/src/new_main_ground_based_people_detection.cpp -o CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.s
 
 lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o.requires:
 .PHONY : lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o.requires
@@ -82,200 +82,200 @@ new_main_ground_based_people_detection_OBJECTS = \
 # External object files for target new_main_ground_based_people_detection
 new_main_ground_based_people_detection_EXTERNAL_OBJECTS =
 
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: lolz/CMakeFiles/new_main_ground_based_people_detection.dir/build.make
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_system-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_filesystem-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_thread-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_date_time-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_iostreams-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_serialization-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_common.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libflann_cpp_s.a
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_kdtree.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_octree.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_search.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_sample_consensus.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_filters.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_tracking.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libOpenNI.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkCommon.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkRendering.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkHybrid.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkCharts.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_io.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_features.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_segmentation.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libqhull.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_surface.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_registration.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_recognition.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_keypoints.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_visualization.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_outofcore.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_people.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_apps.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_system-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_filesystem-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_thread-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_date_time-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_iostreams-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_serialization-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libqhull.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libOpenNI.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libflann_cpp_s.a
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkCommon.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkRendering.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkHybrid.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkCharts.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_filters.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_io.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_tf.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_common.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_kdtree.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_octree.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_search.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_sample_consensus.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_filters.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_features.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_registration.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_io.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_visualization.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_segmentation.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_people.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_surface.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_recognition.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_keypoints.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_outofcore.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_tracking.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_apps.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_iostreams-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_serialization-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libqhull.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libOpenNI.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libflann_cpp_s.a
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libnodeletlib.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libbondcpp.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libtinyxml.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libclass_loader.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libPocoFoundation.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroslib.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosbag.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosbag_storage.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_program_options-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtopic_tools.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf2_ros.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libactionlib.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libmessage_filters.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf2.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroscpp.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_signals-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_filesystem-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole_log4cxx.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole_backend_interface.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/liblog4cxx.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_regex-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libxmlrpcpp.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroscpp_serialization.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librostime.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_date_time-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_system-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_thread-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libcpp_common.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libconsole_bridge.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_filesystem-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_iostreams-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_serialization-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_common.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libflann_cpp_s.a
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_kdtree.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_octree.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_search.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_sample_consensus.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_filters.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_tracking.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libOpenNI.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_io.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_features.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_segmentation.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libqhull.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_surface.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_registration.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_recognition.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_keypoints.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_visualization.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_outofcore.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_people.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_apps.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_filters.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_io.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_tf.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libnodeletlib.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libbondcpp.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libtinyxml.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libclass_loader.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libPocoFoundation.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroslib.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosbag.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosbag_storage.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_program_options-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtopic_tools.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf2_ros.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libactionlib.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libmessage_filters.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf2.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroscpp.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_signals-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole_log4cxx.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole_backend_interface.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/liblog4cxx.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_regex-mt.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libxmlrpcpp.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroscpp_serialization.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librostime.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libcpp_common.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libconsole_bridge.so
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkViews.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkInfovis.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkWidgets.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkHybrid.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkParallel.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkVolumeRendering.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkRendering.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkGraphics.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkImaging.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkIO.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkFiltering.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkCommon.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtksys.so.5.8.0
-/home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection: lolz/CMakeFiles/new_main_ground_based_people_detection.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection"
-	cd /home/orodrigu/test_pcl_LOL/build/lolz && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/new_main_ground_based_people_detection.dir/link.txt --verbose=$(VERBOSE)
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: lolz/CMakeFiles/new_main_ground_based_people_detection.dir/build.make
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_system-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_filesystem-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_thread-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_date_time-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_iostreams-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_serialization-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_common.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libflann_cpp_s.a
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_kdtree.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_octree.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_search.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_sample_consensus.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_filters.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_tracking.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libOpenNI.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkCommon.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkRendering.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkHybrid.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkCharts.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_io.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_features.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_segmentation.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libqhull.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_surface.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_registration.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_recognition.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_keypoints.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_visualization.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_outofcore.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_people.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_apps.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_system-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_filesystem-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_thread-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_date_time-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_iostreams-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_serialization-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libqhull.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libOpenNI.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libflann_cpp_s.a
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkCommon.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkRendering.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkHybrid.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkCharts.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_filters.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_io.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_tf.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_common.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_kdtree.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_octree.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_search.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_sample_consensus.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_filters.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_features.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_registration.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_io.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_visualization.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_segmentation.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_people.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_surface.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_recognition.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_keypoints.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_outofcore.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_tracking.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_apps.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_iostreams-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_serialization-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libqhull.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libOpenNI.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libflann_cpp_s.a
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libnodeletlib.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libbondcpp.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libtinyxml.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libclass_loader.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libPocoFoundation.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroslib.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosbag.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosbag_storage.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_program_options-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtopic_tools.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf2_ros.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libactionlib.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libmessage_filters.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf2.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroscpp.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_signals-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_filesystem-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole_log4cxx.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole_backend_interface.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/liblog4cxx.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_regex-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libxmlrpcpp.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroscpp_serialization.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librostime.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_date_time-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_system-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_thread-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libcpp_common.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libconsole_bridge.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_filesystem-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_iostreams-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_serialization-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_common.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libflann_cpp_s.a
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_kdtree.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_octree.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_search.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_sample_consensus.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_filters.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_tracking.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libOpenNI.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_io.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_features.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_segmentation.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libqhull.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_surface.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_registration.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_recognition.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_keypoints.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_visualization.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_outofcore.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_people.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libpcl_apps.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_filters.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_io.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libpcl_ros_tf.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libnodeletlib.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libbondcpp.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libtinyxml.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libclass_loader.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libPocoFoundation.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroslib.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosbag.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosbag_storage.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_program_options-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtopic_tools.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf2_ros.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libactionlib.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libmessage_filters.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libtf2.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroscpp.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_signals-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole_log4cxx.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librosconsole_backend_interface.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/liblog4cxx.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libboost_regex-mt.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libxmlrpcpp.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libroscpp_serialization.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/librostime.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libcpp_common.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /opt/ros/hydro/lib/libconsole_bridge.so
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkViews.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkInfovis.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkWidgets.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkHybrid.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkParallel.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkVolumeRendering.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkRendering.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkGraphics.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkImaging.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkIO.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkFiltering.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtkCommon.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: /usr/lib/libvtksys.so.5.8.0
+/home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection: lolz/CMakeFiles/new_main_ground_based_people_detection.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection"
+	cd /home/orodrigu/turtlebot_nav/build/lolz && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/new_main_ground_based_people_detection.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-lolz/CMakeFiles/new_main_ground_based_people_detection.dir/build: /home/orodrigu/test_pcl_LOL/devel/lib/lolz/new_main_ground_based_people_detection
+lolz/CMakeFiles/new_main_ground_based_people_detection.dir/build: /home/orodrigu/turtlebot_nav/devel/lib/lolz/new_main_ground_based_people_detection
 .PHONY : lolz/CMakeFiles/new_main_ground_based_people_detection.dir/build
 
 lolz/CMakeFiles/new_main_ground_based_people_detection.dir/requires: lolz/CMakeFiles/new_main_ground_based_people_detection.dir/src/new_main_ground_based_people_detection.cpp.o.requires
 .PHONY : lolz/CMakeFiles/new_main_ground_based_people_detection.dir/requires
 
 lolz/CMakeFiles/new_main_ground_based_people_detection.dir/clean:
-	cd /home/orodrigu/test_pcl_LOL/build/lolz && $(CMAKE_COMMAND) -P CMakeFiles/new_main_ground_based_people_detection.dir/cmake_clean.cmake
+	cd /home/orodrigu/turtlebot_nav/build/lolz && $(CMAKE_COMMAND) -P CMakeFiles/new_main_ground_based_people_detection.dir/cmake_clean.cmake
 .PHONY : lolz/CMakeFiles/new_main_ground_based_people_detection.dir/clean
 
 lolz/CMakeFiles/new_main_ground_based_people_detection.dir/depend:
-	cd /home/orodrigu/test_pcl_LOL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orodrigu/test_pcl_LOL/src /home/orodrigu/test_pcl_LOL/src/lolz /home/orodrigu/test_pcl_LOL/build /home/orodrigu/test_pcl_LOL/build/lolz /home/orodrigu/test_pcl_LOL/build/lolz/CMakeFiles/new_main_ground_based_people_detection.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orodrigu/turtlebot_nav/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orodrigu/turtlebot_nav/src /home/orodrigu/turtlebot_nav/src/lolz /home/orodrigu/turtlebot_nav/build /home/orodrigu/turtlebot_nav/build/lolz /home/orodrigu/turtlebot_nav/build/lolz/CMakeFiles/new_main_ground_based_people_detection.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lolz/CMakeFiles/new_main_ground_based_people_detection.dir/depend
 

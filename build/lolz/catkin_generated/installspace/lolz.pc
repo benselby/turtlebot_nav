@@ -1,8 +1,8 @@
-prefix=/home/orodrigu/test_pcl_LOL/install
+prefix=/home/orodrigu/turtlebot_nav/install
 
 Name: lolz
 Description: Description of lolz
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/orodrigu/test_pcl_LOL/install/lib 
+Libs: -L/home/orodrigu/turtlebot_nav/install/lib 
 Requires: 

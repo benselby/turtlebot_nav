@@ -1,8 +1,8 @@
-# Install script for directory: /home/orodrigu/test_pcl_LOL/src/lolz
+# Install script for directory: /home/orodrigu/turtlebot_nav/src/lolz
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/orodrigu/test_pcl_LOL/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/orodrigu/turtlebot_nav/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/orodrigu/test_pcl_LOL/build/lolz/catkin_generated/installspace/lolz.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/orodrigu/turtlebot_nav/build/lolz/catkin_generated/installspace/lolz.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lolz/cmake" TYPE FILE FILES
-    "/home/orodrigu/test_pcl_LOL/build/lolz/catkin_generated/installspace/lolzConfig.cmake"
-    "/home/orodrigu/test_pcl_LOL/build/lolz/catkin_generated/installspace/lolzConfig-version.cmake"
+    "/home/orodrigu/turtlebot_nav/build/lolz/catkin_generated/installspace/lolzConfig.cmake"
+    "/home/orodrigu/turtlebot_nav/build/lolz/catkin_generated/installspace/lolzConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lolz" TYPE FILE FILES "/home/orodrigu/test_pcl_LOL/src/lolz/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lolz" TYPE FILE FILES "/home/orodrigu/turtlebot_nav/src/lolz/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

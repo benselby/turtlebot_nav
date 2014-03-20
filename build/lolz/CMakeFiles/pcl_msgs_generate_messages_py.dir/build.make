@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orodrigu/test_pcl_LOL/src
+CMAKE_SOURCE_DIR = /home/orodrigu/turtlebot_nav/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orodrigu/test_pcl_LOL/build
+CMAKE_BINARY_DIR = /home/orodrigu/turtlebot_nav/build
 
 # Utility rule file for pcl_msgs_generate_messages_py.
 
@@ -59,10 +59,10 @@ lolz/CMakeFiles/pcl_msgs_generate_messages_py.dir/build: pcl_msgs_generate_messa
 .PHONY : lolz/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
 
 lolz/CMakeFiles/pcl_msgs_generate_messages_py.dir/clean:
-	cd /home/orodrigu/test_pcl_LOL/build/lolz && $(CMAKE_COMMAND) -P CMakeFiles/pcl_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/orodrigu/turtlebot_nav/build/lolz && $(CMAKE_COMMAND) -P CMakeFiles/pcl_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : lolz/CMakeFiles/pcl_msgs_generate_messages_py.dir/clean
 
 lolz/CMakeFiles/pcl_msgs_generate_messages_py.dir/depend:
-	cd /home/orodrigu/test_pcl_LOL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orodrigu/test_pcl_LOL/src /home/orodrigu/test_pcl_LOL/src/lolz /home/orodrigu/test_pcl_LOL/build /home/orodrigu/test_pcl_LOL/build/lolz /home/orodrigu/test_pcl_LOL/build/lolz/CMakeFiles/pcl_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orodrigu/turtlebot_nav/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orodrigu/turtlebot_nav/src /home/orodrigu/turtlebot_nav/src/lolz /home/orodrigu/turtlebot_nav/build /home/orodrigu/turtlebot_nav/build/lolz /home/orodrigu/turtlebot_nav/build/lolz/CMakeFiles/pcl_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lolz/CMakeFiles/pcl_msgs_generate_messages_py.dir/depend
 
