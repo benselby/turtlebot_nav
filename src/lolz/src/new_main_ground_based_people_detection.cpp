@@ -1,3 +1,5 @@
+//Update 21st March 2014 - this is the version that works on the TBot. -Oswin.
+
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>  
@@ -46,7 +48,8 @@ int print_help()
   *new_cloud_available_flag = true;
   cloud_mutex.unlock ();
   }*/
- PointCloudT::Ptr cloud(new PointCloudT);
+
+PointCloudT::Ptr cloud(new PointCloudT);
 
 void callback(const sensor_msgs::PointCloud2ConstPtr& msg){
    cloud_mutex.lock();
@@ -56,7 +59,7 @@ void callback(const sensor_msgs::PointCloud2ConstPtr& msg){
    pcl::fromROSMsg(msg0, cloud0);
    *cloud = cloud0;
    new_cloud_available_flag = true;
-   std::cout << "Converted" << endl;
+   std::cout << "Converted" << std::endl;
    cloud_mutex.unlock();
  }
 
@@ -123,7 +126,7 @@ int main (int argc, char** argv)
   std::cout<<"did start()\n";*/
   unsigned int x=0;
   // Wait for the first frame:
-  while(!new_cloud_available_flag) 
+  while(!new_cloud_available_flag && n.ok()) 
     {
         if(x%1000==0||x==0)
 	  std::cout<<"waiting for first frame\n";
@@ -131,8 +134,9 @@ int main (int argc, char** argv)
 	ros::Duration(0.001).sleep();
 	ros::spinOnce();
     }
- // if(!n.ok())
- //   return 0;
+
+  if(!n.ok()) return -1;
+
   std::cout<<"got first frame\n";
   new_cloud_available_flag = false;
 
